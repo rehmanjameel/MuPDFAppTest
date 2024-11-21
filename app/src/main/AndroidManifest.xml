@@ -29,7 +29,7 @@
         <!-- Fix for MuPDF's DocumentActivity -->
         <activity
             android:name="com.artifex.mupdf.viewer.DocumentActivity"
-            android:exported="false"
+            android:exported="true"
             tools:node="merge" />
 
     </application>

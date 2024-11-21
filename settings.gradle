@@ -25,3 +25,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "MuPDFAppTest"
 include ':app'
+include ':mupdf-lib'

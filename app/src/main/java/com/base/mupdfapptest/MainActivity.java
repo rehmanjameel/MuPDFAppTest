@@ -109,6 +109,7 @@ public class MainActivity extends AppCompatActivity {
         }
     });
     public void startMuPDFActivity(Uri documentUri) {
+
         Intent intent = new Intent(this, DocumentActivity.class);
         intent.setAction(Intent.ACTION_VIEW);
         intent.setData(documentUri);
